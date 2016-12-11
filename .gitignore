@@ -1,0 +1,10 @@
+node_modules
+public/css/*.css.map
+.sass-cache
+ngrok
+config/dev.json
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

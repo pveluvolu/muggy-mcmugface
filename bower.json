@@ -1,0 +1,22 @@
+{
+  "name": "muggy",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Spencer Brown <me@spencer.sx>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1"
+  }
+}
