@@ -8,7 +8,7 @@ const db = require('../db');
 
 function router(app) {
   app.get('/',  (req, res, next) => {
-    res.send('Welcome!');
+    res.render('index');
   });
 }
 

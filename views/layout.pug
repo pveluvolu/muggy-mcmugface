@@ -1,0 +1,18 @@
+html
+  head
+    link(rel='stylesheet' href='css/main.css')
+
+    script(src='js/build.js')
+
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+
+    title Muggy McMugFace
+  body
+    .container
+      .page-header.header-container
+        h1.header-left Muggy McMugFace
+
+      block content
+
+    if env.dev
+      script(src='//localhost:35729/livereload.js')
