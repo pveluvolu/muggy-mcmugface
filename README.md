@@ -5,6 +5,7 @@
 2. `$ npm install grunt -g`
 3. `$ bower install`
 4. Install MongoDB (eg with `brew install mongo`)
+5. `$ cp config/example.json config/dev.json`. `dev.json` is used to store secrets like API keys.
 
 # Running
 
